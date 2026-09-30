@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakery Order - 3Gs & 3Bs Bakery</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css.css">
+
+<style>
+
+body {
+background-color: #fdfaf6;
+}
+.order-box {
+margin: 30px auto;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>3Gs & 3Bs Bakery</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact Us</a>
+<a href="order.html">Order</a>
+</nav>
+</header>
+
+
+<div class="order-box">
+<h1><b>Place Your Order</b></h1>
+<p class="subtitle"><b>Freshly baked with love only for you</b></p>
+
+<form>
+<label for="name">Your Name</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+<label for="product">Choose Your favorite</label>
+<select id="product" name="product" required>
+<option value="">-- Select an item --</option>
+<option value="Birthday Cake">Birthday Cake</option>
+<option value="Wedding Cake">Wedding Cake</option>
+<option value="Cupcakes">Cupcakes</option>
+<option value="Donuts">Donuts</option>
+<option value="Bread">Bread</option>
+<option value="Cookies">Cookies</option>
+</select>
+
+<label for="quantity">Quantity</label>
+<input type="number" id="quantity" name="quantity" min="1" placeholder="Enter quantity" required>
+
+<label for="date">Delivery/Pick-up Date</label>
+<input type="date" id="date" name="date" required>
+
+<label for="message">Special Instructions</label>
+<textarea id="message" name="message" placeholder="Write your cake design, flavour, message, etc."></textarea>
+
+<button type="submit"><b>Place Order</b></button>
+</form>
+
+<a href="index.html" class="back"><b>&larr; Back to Home</b></a>
+</div>
+
+<footer>
+<p>&copy; 2026 3Gs & 3Bs Bakery</p>
+<p>Phone: +256 700 000 000</p>
+<p>Email: info@3gs3bsbakery.com</p>
+</footer>
+
+</body>
+</html>
